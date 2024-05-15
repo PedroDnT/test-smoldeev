@@ -1,0 +1,66 @@
+/* styles/globals.css */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #0070f3;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer {
+  background-color: #111;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.company-widget {
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.news-list,
+.emission-list,
+.rating-update-list {
+  list-style: none;
+  padding: 0;
+}
+
+.news-list li,
+.emission-list li,
+.rating-update-list li {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.news-list li:last-child,
+.emission-list li:last-child,
+.rating-update-list li:last-child {
+  border-bottom: none;
+}
+
+#company-widget,
+#news-list,
+#emission-list,
+#rating-update-list {
+  margin-bottom: 2rem;
+}
